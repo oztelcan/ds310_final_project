@@ -1,0 +1,20 @@
+{
+	"name": "covidpolicyParquetcosmosdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "testAzureDataLakeStorage1test",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "azuredbcont"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

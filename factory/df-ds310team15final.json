@@ -1,0 +1,9 @@
+{
+	"name": "df-ds310team15final",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "63fec551-94cf-49f1-9c13-b90eeefa2197",
+		"tenantId": "d57d32cc-c121-488f-b07b-dfe705680c71"
+	}
+}
