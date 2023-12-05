@@ -523,7 +523,7 @@
 			"dependsOn": []
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/deaths_cases')]",
+			"name": "[concat(parameters('factoryName'), '/deaths_flow')]",
 			"type": "Microsoft.DataFactory/factories/dataflows",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -2635,7 +2635,7 @@
 			]
 		},
 		{
-			"name": "[concat(parameters('factoryName'), '/pipeline1')]",
+			"name": "[concat(parameters('factoryName'), '/deaths_pipeline')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -2654,7 +2654,7 @@
 						"userProperties": [],
 						"typeProperties": {
 							"dataflow": {
-								"referenceName": "deaths_cases",
+								"referenceName": "deaths_flow",
 								"type": "DataFlowReference",
 								"parameters": {},
 								"datasetParameters": {
@@ -2678,7 +2678,7 @@
 				"annotations": []
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/dataflows/deaths_cases')]"
+				"[concat(variables('factoryId'), '/dataflows/deaths_flow')]"
 			]
 		}
 	]
