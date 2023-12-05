@@ -63,9 +63,6 @@
 					"testAzureDataLakeStorage1test_accountKey": {
 						"value": "[parameters('testAzureDataLakeStorage1test_accountKey')]"
 					},
-					"SqlServer1_connectionString": {
-						"value": "[parameters('SqlServer1_connectionString')]"
-					},
 					"testAzureDataLakeStorage1test_properties_typeProperties_url": {
 						"value": "[parameters('testAzureDataLakeStorage1test_properties_typeProperties_url')]"
 					}
@@ -86,6 +83,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"SqlServer1_connectionString": {
+						"value": "[parameters('SqlServer1_connectionString')]"
 					}
 				}
 			},
