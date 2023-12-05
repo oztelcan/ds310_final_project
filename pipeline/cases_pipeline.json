@@ -1,5 +1,5 @@
 {
-	"name": "dates_pipeline",
+	"name": "cases_pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "dates_flow",
+						"referenceName": "cases_flow",
 						"type": "DataFlowReference"
 					},
 					"compute": {
