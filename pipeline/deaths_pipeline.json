@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "deaths_pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "deaths_cases",
+						"referenceName": "deaths_flow",
 						"type": "DataFlowReference"
 					},
 					"compute": {
