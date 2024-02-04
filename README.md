@@ -1,3 +1,4 @@
+
 Project Pathway and Methodology:
 Provisioned a Data Lake and landed data in it from various Cloud resources, including Azure SQL DB and CosmosDB. 
 Managed to land data from On-Premise resources, utilizing an Azure VM to simulate an on-prem store for SQL Server. 
